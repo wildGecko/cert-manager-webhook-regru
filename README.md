@@ -55,7 +55,7 @@ kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/
 git clone https://github.com/flant/cert-manager-webhook-regru.git
 ```
 
-Edit the `values.yaml` file in the cloned repository and enter the appropriate values in the fields `zone`, `image`, `user`, `password`. Example:
+Edit the `values.yaml` file in the cloned repository and enter the appropriate values in the fields `image`, `user`, `password`. Example:
 ```yaml
 issuer:
   image: ghcr.io/flant/cluster-issuer-regru:1.0.1
